@@ -2646,36 +2646,32 @@ body{
 @media(max-width:768px){
 
 
-.textos{
-    display: block;
-    align-content: center;
-    justify-content: center;
+.textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;       /* Centraliza horizontalmente */
+    justify-content: center;   /* Centraliza verticalmente se necessário */
+    text-align: center;        /* Garante centralização do texto */
     margin: 0 auto;
-  
-}
+  }
 
-   .vamosconversar{
-    display: block;
-    justify-content: center;
+  .vamosconversar {
     color: #800020;
     font-size: 45px;
     font-family: "Crimson Text", serif;
     font-weight: 600;
     font-style: italic;
-    
-    margin: 0% auto;
-}
+    margin: 0;
+  }
 
-.preenchaoform{
-    display: block;
+  .preenchaoform {
     font-family: 'SF Pro Display', sans-serif;
     font-style: italic;
     font-size: 0.85rem;
     color: rgba(17, 17, 17, 0.8);
-    width: 100%;
-    margin: 0% auto;
-    
-}
+    margin: 10px 0 0 0; /* pequeno espaço acima */
+    width: 90%;         /* opcional: melhor leitura em mobile */
+  }
 
 
 .boxedeenvio {
