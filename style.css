@@ -2093,18 +2093,7 @@ body{
     flex-wrap: wrap;
 }
     
-    .BOXESCONSULTORIA {
-    display: grid; /* ← necessário */
-    align-items: center;
-    justify-items: center;
-    grid-template-areas:
-      "Principal um dois";
-  }
 
-  .BOXESC1 {
-    grid-area: Principal;
-    padding-bottom: 20px;
-  }
 
   .BOXESC1{ /*BACKGROUND BOXE 1*/
      background: radial-gradient(
@@ -2120,10 +2109,7 @@ body{
     justify-content: center;
   }
 
-  .BOXESC2 {
-    grid-area: um;
-    padding-bottom: 20px;
-  }
+ 
 
 
 .BOXESC2{ /* ALINHAMENTO E BACKGROUND BOXE 3*/
@@ -2143,10 +2129,7 @@ body{
 
 
 
-  .BOXESC3 {
-    grid-area: dois;
-    padding-bottom: 20px;
-  }
+
 
   .BOXESC3{ /* ALINHAMENTO E BACKGROUND BOXE 3*/
     background: radial-gradient(
@@ -2192,11 +2175,7 @@ body{
 }
 
     
-  
- .BOXESC1 {
-    grid-area: Principal;
-    padding-bottom: 20px;
-  }
+
 
   .BOXESC1{ /*BACKGROUND BOXE 1*/
      background: radial-gradient(
@@ -2210,11 +2189,6 @@ body{
     height: 602px;
     margin-top: -40px;
     justify-content: center;
-  }
-
-  .BOXESC2 {
-    grid-area: um;
-    padding-bottom: 20px;
   }
 
 
@@ -2247,11 +2221,6 @@ body{
 }
 
 
-
-  .BOXESC3 {
-    grid-area: dois;
-    padding-bottom: 20px;
-  }
 
   .BOXESC3{ /* ALINHAMENTO E BACKGROUND BOXE 3*/
     background: radial-gradient(
