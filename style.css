@@ -2657,7 +2657,7 @@ body{
 
   .vamosconversar {
     color: #800020;
-    font-size: 45px;
+    font-size: 55px;
     font-family: "Crimson Text", serif;
     font-weight: 600;
     font-style: italic;
@@ -2667,9 +2667,9 @@ body{
   .preenchaoform {
     font-family: 'SF Pro Display', sans-serif;
     font-style: italic;
-    font-size: 0.85rem;
+    font-size: 1.1rem;
     color: rgba(17, 17, 17, 0.8);
-    margin: 10px 0 0 0; /* pequeno espaço acima */
+    margin-top: -10px; /* pequeno espaço acima */
     width: 90%;         /* opcional: melhor leitura em mobile */
   }
 
