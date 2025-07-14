@@ -2250,9 +2250,11 @@ body{
 
 @media(max-width:768px){
 
+
+
     .NossaConsultoria{ /*ALINHAMETNO DA DIV DE TEXTO*/
-    display: block;
-    margin: -80px auto;
+    display: flex;
+    margin: -60px auto;
     justify-items: center;
     padding-top: 100px;
 }
@@ -2263,6 +2265,7 @@ body{
     font-style: italic;
     font-size: 2.0rem;
     color: rgba(17, 17, 17, 0.8);
+    margin: 0 auto;
 }
 
 
