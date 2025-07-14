@@ -2192,16 +2192,7 @@ body{
 }
 
     
-    .BOXESCONSULTORIA {
-    display: grid; /* ← necessário */
-    align-items: center;
-    justify-items: center;
-    grid-template-areas:
-      "um"
-      "Principal"
-      "dois";
-  }
-
+  
  .BOXESC1 {
     grid-area: Principal;
     padding-bottom: 20px;
@@ -2314,22 +2305,7 @@ body{
     gap: 0px;
     flex-wrap: wrap;
 }
-     .BOXESCONSULTORIA {
-    display: grid; /* ← necessário */
-    align-items: center;
-    justify-items: center;
-    grid-template-areas:
-      "Principal" 
-      "um"
-      "dois";
-  }
 
-
-
-  .BOXESC2 {
-    grid-area: Principal;
-    padding-bottom: 20px;
-  }
 
 
 .BOXESC2{ /* ALINHAMENTO E BACKGROUND BOXE 3*/
@@ -2348,10 +2324,6 @@ body{
 }
 
 
-
-  .BOXESC1 {
-    grid-area: um;
-  }
 
   .BOXESC1{ /*BACKGROUND BOXE 1*/
     margin-top: 20px;
@@ -2535,10 +2507,6 @@ body{
 }
 
 
-  .BOXESC3 {
-    grid-area: dois;
-    padding-bottom: 20px;
-  }
 
   .BOXESC3{ /* ALINHAMENTO E BACKGROUND BOXE 3*/
     background: radial-gradient(
@@ -2678,9 +2646,6 @@ body{
 
 @media(max-width:723px){
 
-    .textos{
-    justify-items: center;
-}
 
    .vamosconversar{
     display: flex;
@@ -2754,7 +2719,6 @@ body{
     font-weight: bold;
     align-self: flex-end;
     transition: background-color 0.2s;
-    padding: 10px;
 }
 
 .boxedeenvio form input[type="submit"]:hover {
