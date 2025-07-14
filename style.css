@@ -2648,9 +2648,10 @@ body{
 
 .textos{
     display: block;
-    margin: 0 auto;
     align-content: center;
     justify-content: center;
+    margin: 0 auto;
+  
 }
 
    .vamosconversar{
@@ -2661,6 +2662,8 @@ body{
     font-family: "Crimson Text", serif;
     font-weight: 600;
     font-style: italic;
+    
+    margin: 0 auto;
 }
 
 .preenchaoform{
@@ -2669,7 +2672,8 @@ body{
     font-style: italic;
     font-size: 0.85rem;
     color: rgba(17, 17, 17, 0.8);
-    margin: 0 auto;
+    width: 100%;
+    margin: 0% auto;
     
 }
 
