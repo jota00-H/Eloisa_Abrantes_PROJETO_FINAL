@@ -2643,12 +2643,12 @@ body{
 }
 
 .preenchaoform{
-    margin-top: -10px;
     display: flex;
     font-family: 'SF Pro Display', sans-serif;
     font-style: italic;
     font-size: 0.85rem;
     color: rgba(17, 17, 17, 0.8);
+    margin: -10 auto;
     
 }
 
