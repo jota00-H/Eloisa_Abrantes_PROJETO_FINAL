@@ -1767,7 +1767,7 @@ body{
 
 
 
-.NOSSOSSERVIÇOA{ /*BACKGROUND DA SECTION*/
+.NOSSOSSERVICOA{ /*BACKGROUND DA SECTION*/
     background-color: #fffdfd;
     justify-content: center;
     padding-top: 100px;
@@ -2063,7 +2063,7 @@ body{
 
 @media (min-width: 1217px) and (max-width: 1419px){
 
-    .NOSSOSSERVIÇOA{ /*BACKGROUND DA SECTION*/
+    .NOSSOSSERVICOA{ /*BACKGROUND DA SECTION*/
     background-color: #fffdfd;
     justify-content: center;
     padding-top: 100px;
@@ -2250,7 +2250,12 @@ body{
 
 @media(max-width:768px){
 
-
+    .NOSSOSSERVICOA{ /*BACKGROUND DA SECTION*/
+    background-color: #fffdfd;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 5%;
+    }
 
     .NossaConsultoria{ /*ALINHAMETNO DA DIV DE TEXTO*/
     display: flex;
@@ -2629,11 +2634,15 @@ body{
 
 
 
-@media(max-width:723px){
+@media(max-width:768px){
 
+
+.textos{
+    display: block;
+}
 
    .vamosconversar{
-    display: flex;
+    display: block;
     justify-content: center;
     color: #800020;
     font-size: 45px;
@@ -2643,7 +2652,7 @@ body{
 }
 
 .preenchaoform{
-    display: flex;
+    display: block;
     font-family: 'SF Pro Display', sans-serif;
     font-style: italic;
     font-size: 0.85rem;
