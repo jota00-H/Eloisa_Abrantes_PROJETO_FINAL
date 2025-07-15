@@ -2675,7 +2675,17 @@ body{
         justify-content: center;   /* Centraliza verticalmente */
         align-items: center; 
     }
+
+    .boxedeenvio0{
+        width: 100%;
+        display: flex;             /* Torna o container flexível */
+        flex-direction: column;    /* Caso queira alinhamento vertical dos itens */
+        justify-content: center;
+        align-items: center;
+    }
+    
 }
+
 
 
 @media(max-width:768px){
@@ -2707,6 +2717,7 @@ body{
     margin-top: -10px; /* pequeno espaço acima */
     width: 90%;         /* opcional: melhor leitura em mobile */
   }
+
 
 
 .boxedeenvio {
