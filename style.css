@@ -41,9 +41,11 @@ body{
     height: auto;
 }
 
+.LOGO{
+    margin: 30px;
+}
 
-
-.HEADERSLINKS .LINKS{ /* DIV EM QUE ESTÁ OS LINKS*/
+.HEADERSLINKS .LINKS { /* DIV EM QUE ESTÁ OS LINKS*/
     margin: 30px;
 }
 
@@ -139,7 +141,7 @@ body{
     }
     
     .LOGO{
-        margin-left: -30px;
+        margin-left: 0px;
     }
     
     .LINKS{
