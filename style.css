@@ -2668,7 +2668,14 @@ body{
 }
 
 
-
+@media (min-width: 769px) and (max-width: 1216px){
+    .caixadeenvio{
+        display: flex;             /* Torna o container flexível */
+        flex-direction: column;    /* Caso queira alinhamento vertical dos itens */
+        justify-content: center;   /* Centraliza verticalmente */
+        align-items: center; 
+    }
+}
 
 
 @media(max-width:768px){
