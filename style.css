@@ -2159,12 +2159,15 @@ body{
 @media (min-width: 769px) and (max-width: 1216px){
 
 
- .NOSSOSSERVICOA{ /*BACKGROUND DA SECTION*/
+ .NOSSOSSERVICOA {
     background-color: #fffdfd;
-    justify-content: center;
+    display: flex;             /* Torna o container flexível */
+    flex-direction: column;    /* Caso queira alinhamento vertical dos itens */
+    justify-content: center;   /* Centraliza verticalmente */
+    align-items: center;       /* Centraliza horizontalmente */
     padding-top: 100px;
     padding-bottom: 5%;
-    }
+}
 
     .NossaConsultoria{ /*ALINHAMETNO DA DIV DE TEXTO*/
     display: flex;
